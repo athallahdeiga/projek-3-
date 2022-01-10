@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".ConfirmFinalOrderActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Silakan tulis Rincian Pengiriman Anda"
+        android:textColor="@color/textColor"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/shippment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_design"
+        android:hint="Nama Lengkap*"
+        android:padding="18dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="#E4AFAEAE" />
+
+    <EditText
+        android:id="@+id/shippment_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shippment_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_design"
+        android:hint="No Hp/WhatsApp*"
+        android:inputType="number"
+        android:padding="18dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="#E4AFAEAE" />
+
+    <EditText
+        android:id="@+id/shippment_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shippment_phone_number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_design"
+        android:hint="Alamat Rumah Anda*"
+        android:textColor="@color/textColor"
+        android:padding="18dp"
+        android:textColorHint="#E4AFAEAE" />
+
+    <EditText
+        android:id="@+id/shippment_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shippment_address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_design"
+        android:hint="Nama Kota*"
+        android:padding="18dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="#E4AFAEAE" />
+
+    <Button
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Confirm"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+</RelativeLayout>

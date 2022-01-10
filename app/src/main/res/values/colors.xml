@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#112031</color>
+    <color name="colorPrimaryDark">#393E46</color>
+    <color name="colorAccent">#1B286D</color>
+    <color name="red">#D51404</color>
+
+
+    <color name="overlay">#515E63</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="colorHint">#80FFEB3B</color>
+    <color name="dekhajabena">#FF1700</color>
+    <color name="bg_bottom">#6E3CBC</color>
+    <color name="text_hitam">#112031</color>
+    <color name="abu_abu">#F9F9F9</color>
+    <color name="bg_bar">#4C0070</color>
+    <color name="yellow">#ECB365</color>
+
+
+
+
+</resources>
